@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "name": "Pizza Palace",
+      "menu": [
+        { "item": "Margherita Pizza", "price": 10 },
+        { "item": "Pepperoni Pizza", "price": 12 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Burger Hub",
+      "menu": [
+        { "item": "Cheeseburger", "price": 8 },
+        { "item": "Veggie Burger", "price": 7 }
+      ]
+    }
+  ]
+  
