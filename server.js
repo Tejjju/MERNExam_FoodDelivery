@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const fs = require('fs');
 const cors = require('cors');
@@ -51,3 +52,69 @@ app.post('/order', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
+=======
+const express = require("express");
+const cors = require("cors");
+const app = express();
+const PORT = 3000;
+
+app.use(cors());
+app.use(express.static("public")); // Serve static files from 'public' folder
+
+// Expanded Restaurant Data
+const restaurants = [
+    {
+        "name": "Pizza Palace",
+        "image": "/images/pizza.jpg",
+        "menu": [
+            { "name": "Margherita Pizza", "price": 10 },
+            { "name": "Pepperoni Pizza", "price": 12 },
+            { "name": "BBQ Chicken Pizza", "price": 14 }
+        ]
+    },
+    {
+        "name": "Burger Haven",
+        "image": "/images/burger.jpg",
+        "menu": [
+            { "name": "Classic Cheeseburger", "price": 8 },
+            { "name": "Veggie Burger", "price": 7 },
+            { "name": "Double Patty Burger", "price": 10 }
+        ]
+    },
+    {
+        "name": "Sushi Spot",
+        "image": "/images/sushi.jpg",
+        "menu": [
+            { "name": "California Roll", "price": 12 },
+            { "name": "Salmon Nigiri", "price": 15 },
+            { "name": "Tuna Sashimi", "price": 18 }
+        ]
+    },
+    {
+        "name": "Taco Town",
+        "image": "/images/taco.jpg",
+        "menu": [
+            { "name": "Chicken Taco", "price": 5 },
+            { "name": "Beef Taco", "price": 6 },
+            { "name": "Veggie Taco", "price": 4 }
+        ]
+    },
+    {
+        "name": "Pasta Paradise",
+        "image": "/images/pasta.jpg",
+        "menu": [
+            { "name": "Spaghetti Carbonara", "price": 12 },
+            { "name": "Penne Arrabbiata", "price": 10 },
+            { "name": "Lasagna", "price": 14 }
+        ]
+    }
+];
+
+app.get("/restaurants", (req, res) => {
+    res.json(restaurants);
+});
+
+app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+});
+>>>>>>> 6003ba2 (Updated .gitignore and removed node_modules)

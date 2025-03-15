@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
     {
       "id": 1,
@@ -17,3 +18,73 @@
     }
   ]
   
+=======
+[
+  {
+    "id": 1,
+    "name": "Pizza Palace",
+    "image": "/images/pizza.jpg",
+    "menu": [
+      { "name": "Pepperoni Pizza", "price": 12 },
+      { "name": "Veggie Pizza", "price": 10 },
+      { "name": "BBQ Chicken Pizza", "price": 14 },
+      { "name": "Margherita Pizza", "price": 11 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Burger Hub",
+    "image": "/images/burger.jpg",
+    "menu": [
+      { "name": "Cheese Burger", "price": 8 },
+      { "name": "Veggie Burger", "price": 7 },
+      { "name": "Double Beef Burger", "price": 10 },
+      { "name": "Chicken Burger", "price": 9 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sushi World",
+    "image": "/images/sushi.jpg",
+    "menu": [
+      { "name": "Salmon Roll", "price": 15 },
+      { "name": "Tuna Roll", "price": 14 },
+      { "name": "California Roll", "price": 12 },
+      { "name": "Eel Roll", "price": 16 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Taco Town",
+    "image": "/images/taco.jpg",
+    "menu": [
+      { "name": "Beef Taco", "price": 6 },
+      { "name": "Chicken Taco", "price": 7 },
+      { "name": "Veggie Taco", "price": 5 },
+      { "name": "Fish Taco", "price": 8 }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Pasta House",
+    "image": "/images/pasta.jpg",
+    "menu": [
+      { "name": "Spaghetti Bolognese", "price": 12 },
+      { "name": "Penne Alfredo", "price": 11 },
+      { "name": "Lasagna", "price": 14 },
+      { "name": "Pesto Pasta", "price": 10 }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Healthy Bites",
+    "image": "/images/pizza_palace.png",
+    "menu": [
+      { "name": "Caesar Salad", "price": 9 },
+      { "name": "Greek Salad", "price": 8 },
+      { "name": "Quinoa Salad", "price": 10 },
+      { "name": "Fruit Salad", "price": 7 }
+    ]
+  }
+]
+>>>>>>> 6003ba2 (Updated .gitignore and removed node_modules)
